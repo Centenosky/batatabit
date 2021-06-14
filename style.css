@@ -189,6 +189,11 @@ main {
   height: 100%;
 }
 
+/* .currency-table--container td:first-child, .commission-table--container td:first-child {
+  text-align: initial;
+  padding-left: 25px;
+} */
+
 .currency-table--container td, .commission-table--container td {
   width: 50%;
   font-size: 1.6rem;
@@ -401,6 +406,15 @@ main {
   font-weight: 500;
   line-height: 1.8rem;
   color: #757575;
+}
+
+.plans-container--slider::-webkit-scrollbar {
+  background-color: var(--soft-orange);
+  height: 3px;
+}
+
+.plans-container--slider::-webkit-scrollbar-thumb {
+  background-color: var(--bitcoin-orange);
 }
 
 .plans-container--slider {
